@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: expiration
-          image: us.gcr.io/marine-guard-400806/expiration
+          image: tallilo/expiration
           env:
             - name: NATS_CLIENT_ID
               valueFrom:

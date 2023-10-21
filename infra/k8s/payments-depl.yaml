@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: payments
-          image: us.gcr.io/marine-guard-400806/payments
+          image: tallilo/payments
           env:
             - name: NATS_CLIENT_ID
               valueFrom:
