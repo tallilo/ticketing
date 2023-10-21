@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: client
-          image: us.gcr.io/marine-guard-400806/client
+          image: tallilo/client
 ---
 apiVersion: v1
 kind: Service
